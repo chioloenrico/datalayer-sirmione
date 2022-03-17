@@ -60,7 +60,6 @@ dataLayer.push({
 'name': 'Penisola di Sirmione', // Name or ID is required.
 'id': '12345', //ID Del Tour
 'price': '70€',
-'category': 'Tour_Privati/Penisola_di_Sirmione', //E' possibile annidate le categorie utilizzando /
 'quantity': 1,
 'coupon': ''// Optional fields may be omitted or set to empty string.
  },
@@ -68,14 +67,12 @@ dataLayer.push({
 'name': "Bottiglietta d'acqua",
 'id': '67890',
 'price': '1',
-'category': 'Bevande',
 'quantity': 3
  },
 	 {
 'name': 'Cappellini',
 'id': '67890',
 'price': '9.99',
-'category': 'Accessori',
 'quantity': 2
  }]
 }
@@ -99,8 +96,6 @@ item_id: "43432432432",
 item_name: "Tour di SIrmione",
 coupon: "SUMMER_FUN",
 currency: "EUR",
-item_category: "Tour Privato",
-item_category2: "Eventuale Sotto  Categoria",
 item_list_name: "Tour",
 price: 9.99,
 quantity: 1
@@ -110,11 +105,7 @@ item_id: "SKU_12346",
 item_name: "Acqua",
 coupon: "SUMMER_FUN",
 currency: "EUR",
-index: 1,
-item_category: "Servizi",
-item_category2: "Bevande",
-item_list_name: "Servizi Aggiuntivi",
-price: 1,
+price: 1.00,
 promotion_id: "P_12345",
 promotion_name: "Summer Sale",
 quantity: 1
